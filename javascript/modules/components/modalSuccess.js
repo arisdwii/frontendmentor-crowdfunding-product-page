@@ -3,7 +3,7 @@ const btnCloseSuccess = document.querySelector(".btn-close");
 
 function locationHref(element) {
   element.addEventListener("click", () => {
-    location.href = "frontendmentor-crowdfunding-product-page/index.html";
+    location.href = "/frontendmentor-crowdfunding-product-page/index.html";
   });
 }
 
