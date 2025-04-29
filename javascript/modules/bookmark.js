@@ -1,10 +1,11 @@
-import { getData, saveNewData } from "../localStorage.js";
+import { getData, saveNewData } from "./localStorage.js";
+import { bookmark } from "./appData.js";
 
 // Get the bookmark button element
 const btnBookmark = document.querySelector(".btn-bookmark");
 
 // Retrieve the persistent bookmark state from localStorage
-let persistentBookmark = getData("bookmark");
+let persistentBookmark = getData("bookmark") || bookmark;
 
 // Set the initial state of the bookmark
 let stateBookmark = persistentBookmark;

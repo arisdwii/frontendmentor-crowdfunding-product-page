@@ -19,3 +19,7 @@ if (overlayNav) toggleHeader(overlayNav);
 window.addEventListener("scroll", () => {
   siteHeader.classList.toggle("scroll", window.scrollY > 10);
 });
+
+window.addEventListener("load", () => {
+  siteHeader.classList.toggle("scroll", window.scrollY > 10);
+});

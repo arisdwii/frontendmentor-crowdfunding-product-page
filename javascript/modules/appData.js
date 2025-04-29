@@ -1,4 +1,4 @@
-import { saveNewData, getAllData } from "../localStorage.js";
+import { saveNewData, getAllData } from "./localStorage.js";
 
 export const bookmark = false;
 

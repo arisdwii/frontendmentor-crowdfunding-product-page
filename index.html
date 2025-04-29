@@ -17,9 +17,9 @@
 </head>
 
 <body>
-  <!-- <div id="preloader">
+  <div id="preloader">
     <div class="spinner"></div>
-  </div> -->
+  </div>
 
   <header class="site-header">
     <div class="header-container">
@@ -188,7 +188,8 @@
             <label class="pledge-select">
               <div class="pledge-header">
                 <div class="pledge-radio">
-                  <input type="radio" name="pledge" class="pledge-input-radio">
+                  <input type="radio" id="radio-no-reward" name="pledge" class="pledge-input-radio">
+                  <label for="radio-no-reward"></label>
                 </div>
 
                 <div class="pledge-details">
@@ -206,7 +207,8 @@
             <label class="pledge-select">
               <div class="pledge-header">
                 <div class="pledge-radio">
-                  <input type="radio" name="pledge" class="pledge-input-radio">
+                  <input type="radio" id="radio-bamboo" name="pledge" class="pledge-input-radio">
+                  <label for="radio-bamboo"></label>
                 </div>
 
                 <div class="pledge-details">
@@ -245,10 +247,11 @@
             <label class="pledge-select">
               <div class="pledge-header">
                 <div class="pledge-radio">
-                  <input type="radio" name="pledge" class="pledge-input-radio">
+                  <input type="radio" id="radio-black" name="pledge" class="pledge-input-radio">
+                  <label for="radio-black"></label>
                 </div>
 
-                <div class="pledge-details">
+                <div class=" pledge-details">
                   <h3 class="pledge-title">Black Edition Stand</h3>
                   <p class="pledge-minimum">Pledge $75 or more</p>
                 </div>
@@ -284,7 +287,8 @@
             <label class="pledge-select">
               <div class="pledge-header">
                 <div class="pledge-radio">
-                  <input type="radio" name="pledge" class="pledge-input-radio">
+                  <input type="radio" id="radio-mahogany" name="pledge" class="pledge-input-radio">
+                  <label for="radio-mahogany"></label>
                 </div>
 
                 <div class="pledge-details">
@@ -324,7 +328,7 @@
 
     <!-- Success modal start -->
     <section class="modal-success">
-      <div class="overlay-modal"></div>
+      <div class="overlay-success"></div>
 
       <div class="modal-content">
         <img src="images/icon-check.svg" alt="icon-check" class="success-icon" draggable="false">
@@ -345,7 +349,7 @@
     </p>
   </footer>
 
-  <script type="module" src="javascript/module/main.js"></script>
+  <script type="module" src="javascript/main.js"></script>
 </body>
 
 </html>

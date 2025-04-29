@@ -1,5 +1,5 @@
 import { getData } from "../localStorage.js";
-import { pledges } from "./appData.js";
+import { pledges } from "../appData.js";
 
 const rewardCard = document.querySelectorAll(".reward-card");
 const rewardTitle = document.querySelectorAll(".reward-title");
