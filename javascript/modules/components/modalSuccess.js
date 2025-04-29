@@ -3,7 +3,7 @@ const btnCloseSuccess = document.querySelector(".btn-close");
 
 function locationHref(element) {
   element.addEventListener("click", () => {
-    location.href = "https://arisdwii.github.io";
+    location.href = "https://arisdwii.github.io/frontendmentor-crowdfunding-product-page/";
   });
 }
 
